@@ -1,0 +1,75 @@
+.new{
+    display: flex;
+}
+.classContainer{
+    flex:6
+}
+.new_top,.single_bottom{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.new_top>h1{
+    color: lightgray;
+}
+.new_left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.new_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+.chooseFile{
+   text-align: center;
+    margin-top: 5px;
+}
+.chooseFile>input{
+    margin-top: 0;
+    width: 180px;
+}
+.new_right{
+    flex:2;
+    
+  }
+.new_right>form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.formInput{
+    width: 40%;
+}
+.formInput>label{
+    display: flex;
+    align-items: center;
+   
+}
+.formInput>input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom:1px solid gray;
+}
+
+button{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
